@@ -17,3 +17,15 @@ as found on this page: https://simpleit.rocks/how-to-add-bootstrap-4-to-jekyll-t
 
     yarn add bootstrap@4.0.0
     yarn add "jquery@>=3.0.0"
+
+Made config changes as described on above page.
+
+### Adding the Javascript
+
+Still following above doc, but first need to copy the head.html include from the
+theme minima which is a gem:
+
+    mkdir \_includes
+    cp $(bundle show minima)/\_includes/head.html \_includes/
+
+And added the js includes there.
