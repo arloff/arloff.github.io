@@ -34,3 +34,7 @@ And added the js includes there.
 
     mkdir assets
     cp $(bundler show minima)/assets/main.scss assets/
+
+### Layout
+
+The layout is taken from the <a href="https://github.com/portfolio-central/jekyll-instagram-portfolio-theme">Jekyll&nbsp;Instagram&nbsp;Portfolio</a> by Sergey Sokurenko.

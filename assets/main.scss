@@ -2,11 +2,18 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+// @import "minima";
 
+@import "theme/variables";
 @import "variables";
+
 @import "bootstrap/scss/bootstrap";
 
-.content {
-  font-size: $custom-font-size;
-}
+@import "theme/base";
+@import "theme/fonts";
+@import "theme/navbar";
+@import "theme/top";
+@import "theme/about";
+@import "theme/carousel";
+@import "theme/contacts";
+@import "theme/copyright";
