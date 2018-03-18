@@ -29,3 +29,8 @@ theme minima which is a gem:
     cp $(bundle show minima)/\_includes/head.html \_includes/
 
 And added the js includes there.
+
+### Import Bootstrap and use Sass variables
+
+    mkdir assets
+    cp $(bundler show minima)/assets/main.scss assets/
